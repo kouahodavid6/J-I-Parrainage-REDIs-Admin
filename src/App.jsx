@@ -39,7 +39,7 @@ const ProtectedRoute = ({ children }) => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-950">
         <div className="flex flex-col items-center gap-4">
-          <div className="h-12 w-12 border-4 border-[#ff7a00] border-t-transparent rounded-full animate-spin"></div>
+          <div className="h-12 w-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
           <p className="text-gray-400">Vérification de l'authentification...</p>
         </div>
       </div>
